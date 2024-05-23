@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let gross;
+        let base = 10000;
+        let hra = 10;
+        let da = 8;
+        let ta = 5;
+
+        hra = (base * hra) / 100;
+        da = (base * da) / 100;
+        ta = (base * ta) / 100;
+
+        gross = base - (hra + da + ta);
+
+        console.log("Your Gross Salary :",gross);
+    </script>
+</body>
+</html>
